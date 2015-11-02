@@ -1,6 +1,6 @@
 # GINA's Alaskan jump start for QGIS 
 
-A small project to help jump start an Alaskan's QGIS experience.  
+A small project to help jump-start an Alaskan's QGIS experience with open web services.  
 
 Goal: Help an Alaskan new to QGIS and Web Services get up and going with public web map resources ready to go in a QGIS project file.
 
@@ -13,7 +13,7 @@ _This project is not meant to act as a HOWTO for QGIS or GINA web services._
 ## Usage
 
 1. Have a recent copy of [QGIS](http://qgis.org/en/site/) installed. _out of scope of this document_
-2. Download the [latest release](https://github.com/gina-alaska/qgis-ak-jumpstart/releases) of this repository.
+2. Download the [latest QGIS ak jump-start release](https://github.com/gina-alaska/qgis-ak-jumpstart/releases) of this repository.
 3. Unzip the release and open up the *gina-wms-layers.qgs* project file.
 4. Exploring the pre-setup layers and start making maps.
 
