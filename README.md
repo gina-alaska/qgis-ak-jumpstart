@@ -42,6 +42,8 @@ The following is not a comprehensive list of licensing terms for datasets provid
 * USGS Topos (DRGs) - Public Domain
 * NOAA Nautical Charts - Public Domain
 * SDMI Ortho - License and copyright restricted as a web services to non-commercial users. Data licensed for Federal, State, Local Government, Tribal Non-Profit, and Academic users with copyright notice requirements. http://alaskamapped.org/ortho
-* GINA Best Available Imager - Restricted, Non-commercial, with copyright requirements based on area of focus.
+* GINA Best Available Imagery - Restricted, Non-commercial, with copyright requirements based on area of focus.
+* SDMI IFSAR - Public Domain
+* Open Street Maps - [CC BY-SA](https://www.openstreetmap.org/copyright)
 
 Users with more specific questions on datasets are encouraged to either connect with GINA via support@gina.alaska.edu or submit an issue on this project's [issue tracker](
