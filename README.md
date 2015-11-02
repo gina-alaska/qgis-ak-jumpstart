@@ -13,8 +13,11 @@ _This project is not meant to act as a HOWTO for QGIS or GINA web services._
 ## Usage
 
 1. Have a copy of QGIS installed on your workstation (out of scope for this repo - at this time).
-2. Download a copy of this repository
-3. Open up the QGIS Project files and start exploring the pre-setup layers.
+2. Download the [latest release](https://github.com/gina-alaska/qgis-ak-jumpstart/releases) of this repository.
+3. Unzip the release and open up the *gina-wms-layers.qgs* project file.
+4. Exploring the pre-setup layers and start making maps.
+
+Check out the [QGIS Learning Resources](http://www.qgistutorials.com/en/docs/learning_resources.html) for Docs, Manuals, Books, and Blogs that will help you learn QGIS.
 
 ## Authors & Contributors
 
