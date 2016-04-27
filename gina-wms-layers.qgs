@@ -1,16 +1,52 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
-<qgis projectname="" version="2.12.0-Lyon">
+<qgis projectname="" version="2.14.0-Essen">
   <title></title>
   <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="">
     <customproperties/>
-    <layer-tree-group expanded="1" checked="Qt::Checked" name="Overlays">
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Overlays">
       <customproperties/>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="overlay20151101093714701" name="Open Street Map Overlay">
+      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="overlay20151101093714701" name="Open Street Map Overlay">
         <customproperties/>
       </layer-tree-layer>
     </layer-tree-group>
+    <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Project Maps">
+      <customproperties/>
+      <layer-tree-group expanded="0" checked="Qt::Unchecked" name="EPSCoR-ACE">
+        <customproperties/>
+        <layer-tree-group expanded="1" checked="Qt::Unchecked" name="Northern Test Case">
+          <customproperties/>
+          <layer-tree-group expanded="1" checked="Qt::Unchecked" name="2013 Imagery">
+            <customproperties/>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="2013_Current_Aerial_RGB_Orthoimagery20160413230101873" name="2013 Current Aerial RGB Orthoimagery">
+              <customproperties/>
+            </layer-tree-layer>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="2013_DCCED_Nuiqsut_Aerial_RGB_Orthoimagery20160413230056211" name="2013 DCCED Nuiqsut Aerial RGB Orthoimagery">
+              <customproperties/>
+            </layer-tree-layer>
+          </layer-tree-group>
+          <layer-tree-group expanded="1" checked="Qt::Unchecked" name="USGS 1955 Historical Imagery">
+            <customproperties/>
+            <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="USGS_1955_Historical_Aerial_Orthoimagery20160210200304580" name="USGS 1955 Historical Aerial Orthoimagery">
+              <customproperties/>
+            </layer-tree-layer>
+          </layer-tree-group>
+        </layer-tree-group>
+        <layer-tree-group expanded="0" checked="Qt::Unchecked" name="Southcentral Test Case">
+          <customproperties/>
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="2013_Kenai_Peninsula_CIR_Orthomosaic20160413143618028" name="2013 Kenai Peninsula CIR Orthomosaic">
+            <customproperties/>
+          </layer-tree-layer>
+          <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="2013_Kenai_Peninsula_RGB_Orthomosaic20160413143615532" name="2013 Kenai Peninsula RGB Orthomosaic">
+            <customproperties/>
+          </layer-tree-layer>
+        </layer-tree-group>
+      </layer-tree-group>
+    </layer-tree-group>
     <layer-tree-group expanded="1" checked="Qt::PartiallyChecked" name="Basemaps">
       <customproperties/>
+      <layer-tree-layer expanded="1" checked="Qt::Checked" id="BDL_WMS20160427084915945" name="BDL WMS">
+        <customproperties/>
+      </layer-tree-layer>
       <layer-tree-group expanded="1" checked="Qt::Unchecked" name="SDMI Orthomosaic">
         <customproperties/>
         <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="SPOT5_SDMI_ORTHO_PAN20151101100050139" name="SPOT5.SDMI.ORTHO_PAN">
@@ -38,13 +74,7 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Natural_Earth_I_with_Shaded_Relief_and_Water20151101094006224" name="Natural Earth I with Shaded Relief and Water">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="DRG20151101093917943" name="USGS Topos">
-        <customproperties/>
-      </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Hill_Shaded_DRG20151101093933015" name="USGS Hill Shaded Topos">
-        <customproperties/>
-      </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="Charts20151101100138608" name="NOAA Charts">
         <customproperties/>
       </layer-tree-layer>
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="GINA_Bathymetry20151101093926953" name="GINA Bathymetry">
@@ -56,19 +86,16 @@
       <layer-tree-layer expanded="1" checked="Qt::Unchecked" id="terracolor20151101093951136" name="Terracolor (Landsat)">
         <customproperties/>
       </layer-tree-layer>
-      <layer-tree-layer expanded="1" checked="Qt::Checked" id="BDL_WMS20151101093659657" name="GINA Best Avaialble Imagery">
-        <customproperties/>
-      </layer-tree-layer>
     </layer-tree-group>
   </layer-tree-group>
   <relations/>
   <mapcanvas>
     <units>meters</units>
     <extent>
-      <xmin>-1496758.07984429155476391</xmin>
-      <ymin>573601.55279851995874196</ymin>
-      <xmax>1364192.56172693823464215</xmax>
-      <ymax>2627791.23146222252398729</ymax>
+      <xmin>-2388533.8306763032451272</xmin>
+      <ymin>127732.90817035594955087</ymin>
+      <xmax>1060262.47005977854132652</xmax>
+      <ymax>2535707.2177480380050838</ymax>
     </extent>
     <rotation>0</rotation>
     <projections>1</projections>
@@ -84,30 +111,39 @@
         <geographicflag>false</geographicflag>
       </spatialrefsys>
     </destinationsrs>
+    <rendermaptile>0</rendermaptile>
     <layer_coordinate_transform_info>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="basemap20151101093724689"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SPOT5_SDMI_ORTHO_PAN20151101100050139"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="DSM20151101100357979"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Natural_Earth_I_with_Shaded_Relief_and_Water20151101094006224"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="ORI20151101100830512"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hill_Shaded_DRG20151101093933015"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="overlay20151101093714701"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Charts20151101100138608"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="DRG20151101093917943"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SPOT5_SDMI_ORTHO_RGB20151101100045861"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="terracolor20151101093951136"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="BDL_WMS20151101093659657"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Shaded_Relief_NED20151101093922192"/>
-      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="GINA_Bathymetry20151101093926953"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:102006" srcDatumTransform="-1" destDatumTransform="-1" layerid="AHAP_1982_Historical_Aerial_Orthoimagery20160210200235585"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:102006" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_Current_Aerial_RGB_Orthoimagery20160210195824097"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Charts20151101100138608"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="terracolor20151101093951136"/>
       <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SPOT5_SDMI_ORTHO_CIR20151101100048271"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="BDL_WMS20160427084915945"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="BDL_WMS20151101093659657"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_Kenai_Peninsula_CIR_Orthomosaic20160413143618028"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="GINA_Bathymetry20151101093926953"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_Current_Aerial_RGB_Orthoimagery20160413230101873"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="DRG20151101093917943"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Hill_Shaded_DRG20151101093933015"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_Kenai_Peninsula_RGB_Orthomosaic20160413143615532"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_DCCED_Nuiqsut_Aerial_RGB_Orthoimagery20160413230056211"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SPOT5_SDMI_ORTHO_RGB20151101100045861"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="overlay20151101093714701"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:102006" srcDatumTransform="-1" destDatumTransform="-1" layerid="2013_DCCED_Nuiqsut_Aerial_RGB_Orthoimagery20160210195839542"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="basemap20151101093724689"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="Natural_Earth_I_with_Shaded_Relief_and_Water20151101094006224"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="SPOT5_SDMI_ORTHO_PAN20151101100050139"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:102006" srcDatumTransform="-1" destDatumTransform="-1" layerid="AHAP_1979_Historical_Aerial_Orthoimagery20160210200220035"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:102006" srcDatumTransform="-1" destDatumTransform="-1" layerid="USGS_1955_Historical_Aerial_Orthoimagery20160210200304580"/>
+      <layer_coordinate_transform destAuthId="EPSG:3338" srcAuthId="EPSG:3338" srcDatumTransform="-1" destDatumTransform="-1" layerid="ORI20151101100830512"/>
     </layer_coordinate_transform_info>
   </mapcanvas>
   <layer-tree-canvas>
     <custom-order enabled="0">
-      <item>BDL_WMS20151101093659657</item>
       <item>overlay20151101093714701</item>
       <item>basemap20151101093724689</item>
-      <item>DRG20151101093917943</item>
       <item>Shaded_Relief_NED20151101093922192</item>
       <item>GINA_Bathymetry20151101093926953</item>
       <item>Hill_Shaded_DRG20151101093933015</item>
@@ -116,20 +152,67 @@
       <item>SPOT5_SDMI_ORTHO_RGB20151101100045861</item>
       <item>SPOT5_SDMI_ORTHO_CIR20151101100048271</item>
       <item>SPOT5_SDMI_ORTHO_PAN20151101100050139</item>
-      <item>Charts20151101100138608</item>
       <item>DSM20151101100357979</item>
       <item>ORI20151101100830512</item>
+      <item>USGS_1955_Historical_Aerial_Orthoimagery20160210200304580</item>
+      <item>2013_Kenai_Peninsula_RGB_Orthomosaic20160413143615532</item>
+      <item>2013_Kenai_Peninsula_CIR_Orthomosaic20160413143618028</item>
+      <item>2013_DCCED_Nuiqsut_Aerial_RGB_Orthoimagery20160413230056211</item>
+      <item>2013_Current_Aerial_RGB_Orthoimagery20160413230101873</item>
+      <item>BDL_WMS20160427084915945</item>
     </custom-order>
   </layer-tree-canvas>
   <legend updateDrawingOrder="true">
-    <legendgroup open="true" checked="Qt::Checked" name="Overlays">
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="Open Street Map Overlay" showFeatureCount="0">
+    <legendgroup open="true" checked="Qt::Unchecked" name="Overlays">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="Open Street Map Overlay" showFeatureCount="0">
         <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="overlay20151101093714701" visible="1"/>
+          <legendlayerfile isInOverview="0" layerid="overlay20151101093714701" visible="0"/>
         </filegroup>
       </legendlayer>
     </legendgroup>
+    <legendgroup open="true" checked="Qt::Unchecked" name="Project Maps">
+      <legendgroup open="false" checked="Qt::Unchecked" name="EPSCoR-ACE">
+        <legendgroup open="true" checked="Qt::Unchecked" name="Northern Test Case">
+          <legendgroup open="true" checked="Qt::Unchecked" name="2013 Imagery">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2013 Current Aerial RGB Orthoimagery" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="2013_Current_Aerial_RGB_Orthoimagery20160413230101873" visible="0"/>
+              </filegroup>
+            </legendlayer>
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2013 DCCED Nuiqsut Aerial RGB Orthoimagery" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="2013_DCCED_Nuiqsut_Aerial_RGB_Orthoimagery20160413230056211" visible="0"/>
+              </filegroup>
+            </legendlayer>
+          </legendgroup>
+          <legendgroup open="true" checked="Qt::Unchecked" name="USGS 1955 Historical Imagery">
+            <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="USGS 1955 Historical Aerial Orthoimagery" showFeatureCount="0">
+              <filegroup open="true" hidden="false">
+                <legendlayerfile isInOverview="0" layerid="USGS_1955_Historical_Aerial_Orthoimagery20160210200304580" visible="0"/>
+              </filegroup>
+            </legendlayer>
+          </legendgroup>
+        </legendgroup>
+        <legendgroup open="false" checked="Qt::Unchecked" name="Southcentral Test Case">
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2013 Kenai Peninsula CIR Orthomosaic" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="2013_Kenai_Peninsula_CIR_Orthomosaic20160413143618028" visible="0"/>
+            </filegroup>
+          </legendlayer>
+          <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="2013 Kenai Peninsula RGB Orthomosaic" showFeatureCount="0">
+            <filegroup open="true" hidden="false">
+              <legendlayerfile isInOverview="0" layerid="2013_Kenai_Peninsula_RGB_Orthomosaic20160413143615532" visible="0"/>
+            </filegroup>
+          </legendlayer>
+        </legendgroup>
+      </legendgroup>
+    </legendgroup>
     <legendgroup open="true" checked="Qt::PartiallyChecked" name="Basemaps">
+      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="BDL WMS" showFeatureCount="0">
+        <filegroup open="true" hidden="false">
+          <legendlayerfile isInOverview="0" layerid="BDL_WMS20160427084915945" visible="1"/>
+        </filegroup>
+      </legendlayer>
       <legendgroup open="true" checked="Qt::Unchecked" name="SDMI Orthomosaic">
         <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="SPOT5.SDMI.ORTHO_PAN" showFeatureCount="0">
           <filegroup open="true" hidden="false">
@@ -169,19 +252,9 @@
           <legendlayerfile isInOverview="0" layerid="Natural_Earth_I_with_Shaded_Relief_and_Water20151101094006224" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="USGS Topos" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="DRG20151101093917943" visible="0"/>
-        </filegroup>
-      </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="USGS Hill Shaded Topos" showFeatureCount="0">
         <filegroup open="true" hidden="false">
           <legendlayerfile isInOverview="0" layerid="Hill_Shaded_DRG20151101093933015" visible="0"/>
-        </filegroup>
-      </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="NOAA Charts" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="Charts20151101100138608" visible="0"/>
         </filegroup>
       </legendlayer>
       <legendlayer drawingOrder="-1" open="true" checked="Qt::Unchecked" name="GINA Bathymetry" showFeatureCount="0">
@@ -199,105 +272,271 @@
           <legendlayerfile isInOverview="0" layerid="terracolor20151101093951136" visible="0"/>
         </filegroup>
       </legendlayer>
-      <legendlayer drawingOrder="-1" open="true" checked="Qt::Checked" name="GINA Best Avaialble Imagery" showFeatureCount="0">
-        <filegroup open="true" hidden="false">
-          <legendlayerfile isInOverview="0" layerid="BDL_WMS20151101093659657" visible="1"/>
-        </filegroup>
-      </legendlayer>
     </legendgroup>
   </legend>
-  <projectlayers layercount="15">
+  <Composer title="asdf" visible="0">
+    <Composition resizeToContentsMarginLeft="0" snapping="0" showPages="1" guidesVisible="1" resizeToContentsMarginTop="0" alignmentSnap="1" printResolution="400" paperWidth="297" gridVisible="0" snapGridOffsetX="0" smartGuides="1" snapGridOffsetY="0" resizeToContentsMarginRight="0" snapTolerancePixels="5" printAsRaster="0" generateWorldFile="0" paperHeight="210" numPages="1" snapGridResolution="10" resizeToContentsMarginBottom="0">
+      <symbol alpha="1" clip_to_extent="1" type="fill" name="">
+        <layer pass="0" class="SimpleFill" locked="0">
+          <prop k="border_width_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="color" v="255,255,255,255"/>
+          <prop k="joinstyle" v="miter"/>
+          <prop k="offset" v="0,0"/>
+          <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="outline_color" v="0,0,0,255"/>
+          <prop k="outline_style" v="no"/>
+          <prop k="outline_width" v="0.26"/>
+          <prop k="outline_width_unit" v="MM"/>
+          <prop k="style" v="solid"/>
+        </layer>
+      </symbol>
+      <ComposerMap mapRotation="0" keepLayerSet="false" id="0" previewMode="Cache" drawCanvasItems="true">
+        <Extent ymin="2257200.97956931404769421" xmin="104820.440288090496324" ymax="2258223.01561423623934388" xmax="106257.07586067001102492"/>
+        <LayerSet/>
+        <Grid/>
+        <ComposerMapGrid rightAnnotationDirection="0" gridFramePenColor="0,0,0,255" show="0" bottomAnnotationPosition="1" annotationPrecision="3" showAnnotation="0" topFrameDivisions="0" uuid="{ec334a89-b25f-41a0-a5a4-64972aaa7bdf}" leftAnnotationDirection="0" topAnnotationPosition="1" rightAnnotationDisplay="0" offsetX="0" offsetY="0" rightFrameDivisions="0" gridStyle="0" annotationFontColor="0,0,0,255" intervalX="0" gridFrameSideFlags="15" intervalY="0" bottomAnnotationDirection="0" leftAnnotationDisplay="0" leftFrameDivisions="0" frameFillColor1="255,255,255,255" annotationExpression="" frameFillColor2="0,0,0,255" crossLength="3" gridFramePenThickness="0.5" bottomAnnotationDisplay="0" unit="0" topAnnotationDisplay="0" leftAnnotationPosition="1" blendMode="0" gridFrameStyle="0" rightAnnotationPosition="1" gridFrameWidth="2" name="Grid 1" annotationFormat="0" bottomFrameDivisions="0" topAnnotationDirection="0" frameAnnotationDistance="1">
+          <lineStyle>
+            <symbol alpha="1" clip_to_extent="1" type="line" name="">
+              <layer pass="0" class="SimpleLine" locked="0">
+                <prop k="capstyle" v="square"/>
+                <prop k="customdash" v="5;2"/>
+                <prop k="customdash_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="customdash_unit" v="MM"/>
+                <prop k="draw_inside_polygon" v="0"/>
+                <prop k="joinstyle" v="bevel"/>
+                <prop k="line_color" v="0,0,0,255"/>
+                <prop k="line_style" v="solid"/>
+                <prop k="line_width" v="0"/>
+                <prop k="line_width_unit" v="MM"/>
+                <prop k="offset" v="0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="use_custom_dash" v="0"/>
+                <prop k="width_map_unit_scale" v="0,0,0,0,0,0"/>
+              </layer>
+            </symbol>
+          </lineStyle>
+          <markerStyle>
+            <symbol alpha="1" clip_to_extent="1" type="marker" name="">
+              <layer pass="0" class="SimpleMarker" locked="0">
+                <prop k="angle" v="0"/>
+                <prop k="color" v="0,0,0,255"/>
+                <prop k="horizontal_anchor_point" v="1"/>
+                <prop k="name" v="circle"/>
+                <prop k="offset" v="0,0"/>
+                <prop k="offset_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="offset_unit" v="MM"/>
+                <prop k="outline_color" v="0,0,0,255"/>
+                <prop k="outline_style" v="solid"/>
+                <prop k="outline_width" v="0"/>
+                <prop k="outline_width_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="outline_width_unit" v="MM"/>
+                <prop k="scale_method" v="diameter"/>
+                <prop k="size" v="2"/>
+                <prop k="size_map_unit_scale" v="0,0,0,0,0,0"/>
+                <prop k="size_unit" v="MM"/>
+                <prop k="vertical_anchor_point" v="1"/>
+              </layer>
+            </symbol>
+          </markerStyle>
+          <annotationFontProperties description=".SF NS Text,13,-1,5,50,0,0,0,0,0" style=""/>
+        </ComposerMapGrid>
+        <AtlasMap scalingMode="2" atlasDriven="0" margin="0.10000000000000001"/>
+        <ComposerItem pagey="0" page="1" id="" lastValidViewScaleFactor="2.96266" positionMode="0" positionLock="false" x="-1" y="0" visibility="1" zValue="1" background="true" transparency="0" frameJoinStyle="miter" blendMode="0" width="298" outlineWidth="0.3" excludeFromExports="0" uuid="{be20a6e7-0650-4b4e-9850-47a4c190d1b5}" height="212" itemRotation="0" frame="false" pagex="-1">
+          <FrameColor alpha="255" red="0" blue="0" green="0"/>
+          <BackgroundColor alpha="255" red="255" blue="255" green="255"/>
+          <customproperties/>
+        </ComposerItem>
+      </ComposerMap>
+      <customproperties>
+        <property key="imageCropMarginBottom" value="0"/>
+        <property key="imageCropMarginLeft" value="0"/>
+        <property key="imageCropMarginRight" value="0"/>
+        <property key="imageCropMarginTop" value="0"/>
+        <property key="imageCropToContents" value="false"/>
+      </customproperties>
+    </Composition>
+  </Composer>
+  <projectlayers>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>BDL_WMS20151101093659657</id>
+      <id>2013_Current_Aerial_RGB_Orthoimagery20160413230101873</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.NORTHERN.CURRENT.2013.RGB&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
+      <shortname>2013 Current Aerial RGB Orthoimagery</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2013 Current Aerial RGB Orthoimagery</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1296</srsid>
+          <srid>3338</srid>
+          <authid>EPSG:3338</authid>
+          <description>NAD83 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>2013_DCCED_Nuiqsut_Aerial_RGB_Orthoimagery20160413230056211</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.NUIQSUT.CURRENT.2013.RGB&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
+      <shortname>2013 DCCED Nuiqsut Aerial RGB Orthoimagery</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2013 DCCED Nuiqsut Aerial RGB Orthoimagery</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1296</srsid>
+          <srid>3338</srid>
+          <authid>EPSG:3338</authid>
+          <description>NAD83 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>2013_Kenai_Peninsula_CIR_Orthomosaic20160413143618028</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.KENAI.ORTHO-MOSAIC.2013.CIR&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
+      <shortname>2013 Kenai Peninsula CIR Orthomosaic</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2013 Kenai Peninsula CIR Orthomosaic</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1296</srsid>
+          <srid>3338</srid>
+          <authid>EPSG:3338</authid>
+          <description>NAD83 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>2013_Kenai_Peninsula_RGB_Orthomosaic20160413143615532</id>
+      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=EPSCOR.KENAI.ORTHO-MOSAIC.2013.RGB&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
+      <shortname>2013 Kenai Peninsula RGB Orthomosaic</shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>2013 Kenai Peninsula RGB Orthomosaic</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
+          <srsid>1296</srsid>
+          <srid>3338</srid>
+          <authid>EPSG:3338</authid>
+          <description>NAD83 / Alaska Albers</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym>GRS80</ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>BDL_WMS20160427084915945</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpg&amp;layers=BestDataAvailableLayer&amp;styles=&amp;url=http://wms.alaskamapped.org/bdl</datasource>
+      <shortname>BDL WMS</shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
         <value></value>
       </keywordList>
-      <layername>GINA Best Avaialble Imagery</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>1296</srsid>
-          <srid>3338</srid>
-          <authid>EPSG:3338</authid>
-          <description>NAD83 / Alaska Albers</description>
-          <projectionacronym>aea</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>Charts20151101100138608</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Charts&amp;styles=&amp;url=http://wms.alaskamapped.org/charts</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>NOAA Charts</layername>
-      <srs>
-        <spatialrefsys>
-          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
-          <srsid>1296</srsid>
-          <srid>3338</srid>
-          <authid>EPSG:3338</authid>
-          <description>NAD83 / Alaska Albers</description>
-          <projectionacronym>aea</projectionacronym>
-          <ellipsoidacronym>GRS80</ellipsoidacronym>
-          <geographicflag>false</geographicflag>
-        </spatialrefsys>
-      </srs>
-      <customproperties>
-        <property key="identify/format" value="Undefined"/>
-      </customproperties>
-      <provider>wms</provider>
-      <noData>
-        <noDataList bandNo="1" useSrcNoData="0"/>
-      </noData>
-      <map-layer-style-manager current="">
-        <map-layer-style name=""/>
-      </map-layer-style-manager>
-      <pipe>
-        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
-          <rasterTransparency/>
-        </rasterrenderer>
-        <brightnesscontrast brightness="0" contrast="0"/>
-        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
-        <rasterresampler maxOversampling="2"/>
-      </pipe>
-      <blendMode>0</blendMode>
-    </maplayer>
-    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
-      <id>DRG20151101093917943</id>
-      <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=DRG&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
-      <title></title>
-      <abstract></abstract>
-      <keywordList>
-        <value></value>
-      </keywordList>
-      <layername>USGS Topos</layername>
+      <layername>BDL WMS</layername>
       <srs>
         <spatialrefsys>
           <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</proj4>
@@ -333,6 +572,7 @@
     <maplayer minimumScale="-4.65661e-10" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>DSM20151101100357979</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=DSM&amp;styles=&amp;url=http://wms.alaskamapped.org/ifsar</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -374,6 +614,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>GINA_Bathymetry20151101093926953</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=GINA%20Bathymetry&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -415,6 +656,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Hill_Shaded_DRG20151101093933015</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Hill%20Shaded%20DRG&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -456,6 +698,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Natural_Earth_I_with_Shaded_Relief_and_Water20151101094006224</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=natural_earth_NE1_HR_LC_SR_W&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -497,6 +740,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>ORI20151101100830512</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=ORI&amp;styles=&amp;url=http://wms.alaskamapped.org/ifsar</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -538,6 +782,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>SPOT5_SDMI_ORTHO_CIR20151101100048271</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTHO.CIR&amp;styles=&amp;url=http://wms.alaskamapped.org/ortho</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -579,6 +824,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>SPOT5_SDMI_ORTHO_PAN20151101100050139</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTHO.PAN&amp;styles=&amp;url=http://wms.alaskamapped.org/ortho</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -620,6 +866,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>SPOT5_SDMI_ORTHO_RGB20151101100045861</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=ORTHO.RGB&amp;styles=&amp;url=http://wms.alaskamapped.org/ortho</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -661,6 +908,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>Shaded_Relief_NED20151101093922192</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=Shaded%20Relief%20NED&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -700,8 +948,51 @@
       <blendMode>0</blendMode>
     </maplayer>
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
+      <id>USGS_1955_Historical_Aerial_Orthoimagery20160210200304580</id>
+      <datasource>crs=EPSG:102006&amp;dpiMode=7&amp;format=image/png&amp;layers=EPSCOR.NORTHERN.HISTORICAL.USGS.1955&amp;styles=&amp;url=http://ogc.gina.alaska.edu/epscor</datasource>
+      <shortname></shortname>
+      <title></title>
+      <abstract></abstract>
+      <keywordList>
+        <value></value>
+      </keywordList>
+      <layername>USGS 1955 Historical Aerial Orthoimagery</layername>
+      <srs>
+        <spatialrefsys>
+          <proj4>+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +datum=NAD83 +units=m +no_defs</proj4>
+          <srsid>27129</srsid>
+          <srid>102006</srid>
+          <authid>EPSG:102006</authid>
+          <description>Alaska_Albers_Equal_Area_Conic</description>
+          <projectionacronym>aea</projectionacronym>
+          <ellipsoidacronym></ellipsoidacronym>
+          <geographicflag>false</geographicflag>
+        </spatialrefsys>
+      </srs>
+      <customproperties>
+        <property key="identify/format" value="Undefined"/>
+      </customproperties>
+      <provider>wms</provider>
+      <noData>
+        <noDataList bandNo="1" useSrcNoData="0"/>
+      </noData>
+      <map-layer-style-manager current="">
+        <map-layer-style name=""/>
+      </map-layer-style-manager>
+      <pipe>
+        <rasterrenderer opacity="1" alphaBand="-1" band="1" type="singlebandcolordata">
+          <rasterTransparency/>
+        </rasterrenderer>
+        <brightnesscontrast brightness="0" contrast="0"/>
+        <huesaturation colorizeGreen="128" colorizeOn="0" colorizeRed="255" colorizeBlue="128" grayscaleMode="0" saturation="0" colorizeStrength="100"/>
+        <rasterresampler maxOversampling="2"/>
+      </pipe>
+      <blendMode>0</blendMode>
+    </maplayer>
+    <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>basemap20151101093724689</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/jpeg&amp;layers=basemap&amp;styles=&amp;url=http://ogc.gina.alaska.edu/osm</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -743,6 +1034,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>overlay20151101093714701</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=7&amp;featureCount=10&amp;format=image/png&amp;layers=overlay&amp;styles=&amp;url=http://ogc.gina.alaska.edu/osm</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -784,6 +1076,7 @@
     <maplayer minimumScale="0" maximumScale="1e+08" type="raster" hasScaleBasedVisibilityFlag="0">
       <id>terracolor20151101093951136</id>
       <datasource>contextualWMSLegend=0&amp;crs=EPSG:3338&amp;dpiMode=all&amp;featureCount=10&amp;format=image/jpeg&amp;layers=terracolor&amp;styles=&amp;url=http://wms.alaskamapped.org/extras</datasource>
+      <shortname></shortname>
       <title></title>
       <abstract></abstract>
       <keywordList>
@@ -824,6 +1117,10 @@
     </maplayer>
   </projectlayers>
   <properties>
+    <Measurement>
+      <DistanceUnits type="QString">meters</DistanceUnits>
+      <AreaUnits type="QString"></AreaUnits>
+    </Measurement>
     <SpatialRefSys>
       <ProjectCRSProj4String type="QString">+proj=aea +lat_1=55 +lat_2=65 +lat_0=50 +lon_0=-154 +x_0=0 +y_0=0 +ellps=GRS80 +towgs84=0,0,0,0,0,0,0 +units=m +no_defs</ProjectCRSProj4String>
       <ProjectCrs type="QString">EPSG:3338</ProjectCrs>
